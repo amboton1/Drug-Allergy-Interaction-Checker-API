@@ -451,3 +451,12 @@ def get_allergy(name):
         JOIN allergy_ingredients ai ON ai.ingredient_id = i.id
         WHERE ai.allergy_id = ?
     ''', (allergy['id'],)).fetchall()
+
+    conn.close()
+
+    return jsonify({
+        'allergy': allergy,
+        'related_ingredients': [dict(row) for row in related_ingredients],
+        'cross_reactivity': [dict(row) for row in cross_reactivity],
+        'related_drugs': [dict(row) for row in related_drugs]
+    }), 200
