@@ -443,6 +443,11 @@ def get_allergy(name):
     # Get related drugs
     related_drugs = conn.execute('''
         SELECT d.*, 
-               CASE 
-                   WHEN ai.relationship = 'exact' THEN 'contains'
-        ''')
+               ai.relationship,
+               i.name AS ingredient_name
+        FROM drugs d
+        JOIN drug_ingredients di ON d.id = di.drug_id
+        JOIN ingredients i ON di.ingredient_id = i.id
+        JOIN allergy_ingredients ai ON ai.ingredient_id = i.id
+        WHERE ai.allergy_id = ?
+    ''', (allergy['id'],)).fetchall()
