@@ -1,0 +1,40 @@
+2025-06-14 00:32:16,963 - __main__ - INFO - Starting minimal API server for troubleshooting
+2025-06-14 00:33:05,906 - __main__ - INFO - Starting minimal API server for troubleshooting
+2025-06-14 00:33:28,637 - __main__ - INFO - Starting minimal API server for troubleshooting
+2025-06-14 00:35:01,676 - __main__ - INFO - Starting minimal API server for troubleshooting
+2025-06-14 00:35:27,572 - __main__ - INFO - Starting minimal API server for troubleshooting
+2025-06-14 00:35:32,513 - __main__ - INFO - Starting minimal API server for troubleshooting
+2025-06-14 00:35:55,922 - __main__ - INFO - Starting minimal API server for troubleshooting
+2025-06-14 00:36:34,838 - __main__ - INFO - Starting minimal API server for troubleshooting
+2025-06-14 00:36:34,988 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.3:5001
+2025-06-14 00:36:34,988 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 00:36:34,989 - werkzeug - INFO -  * Restarting with stat
+2025-06-14 00:36:35,183 - __main__ - INFO - Starting minimal API server for troubleshooting
+2025-06-14 00:36:35,226 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 00:36:35,237 - werkzeug - INFO -  * Debugger PIN: 555-520-514
+2025-06-14 00:36:39,186 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:36:39] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-14 00:36:40,240 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:36:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-14 00:36:48,019 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:36:48] "[33mGET /v1/check HTTP/1.1[0m" 404 -
+2025-06-14 00:38:54,853 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:38:54] "[33mGET /v1/drug/penicilin HTTP/1.1[0m" 404 -
+2025-06-14 00:39:08,063 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:39:08] "[33mGET /v1/drug/ HTTP/1.1[0m" 404 -
+2025-06-14 00:39:45,328 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:39:45] "[33mGET /v1/drug/Amoxil HTTP/1.1[0m" 404 -
+2025-06-14 00:40:57,141 - __main__ - INFO - Starting minimal API server for troubleshooting
+2025-06-14 00:40:57,267 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.3:5001
+2025-06-14 00:40:57,268 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 00:40:57,269 - werkzeug - INFO -  * Restarting with stat
+2025-06-14 00:40:57,458 - __main__ - INFO - Starting minimal API server for troubleshooting
+2025-06-14 00:40:57,503 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 00:40:57,512 - werkzeug - INFO -  * Debugger PIN: 555-520-514
+2025-06-14 00:42:56,209 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:42:56] "[33mPOST /v1/check HTTP/1.1[0m" 404 -
+2025-06-14 00:43:31,815 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:43:31] "[33mPOST /v1/check HTTP/1.1[0m" 404 -
+2025-06-14 00:43:43,315 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:43:43] "[33mPOST /v1/check HTTP/1.1[0m" 404 -
+2025-06-14 00:44:35,111 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:44:35] "[33mGET /v1/drug/Amoxil HTTP/1.1[0m" 404 -
+2025-06-14 00:44:39,027 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:44:39] "[33mGET /v1/ HTTP/1.1[0m" 404 -
+2025-06-14 00:44:47,791 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:44:47] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-14 00:44:48,357 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 00:44:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
