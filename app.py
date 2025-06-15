@@ -9,7 +9,7 @@ CORS(app)
 
 # Database connection
 def get_db_connection():
-    conn = sqlite3.connect('../database/allergy_api.db')
+    conn = sqlite3.connect('database/allergy_api.db')
     conn.row_factory = sqlite3.Row
     return conn
 
