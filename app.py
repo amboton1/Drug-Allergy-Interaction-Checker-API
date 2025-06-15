@@ -445,5 +445,4 @@ def get_allergy(name):
         SELECT d.*, 
                CASE 
                    WHEN ai.relationship = 'exact' THEN 'contains'
-               
-(Content truncated due to size limit. Use line ranges to read in chunks))''')
+        ''')
